@@ -17,6 +17,20 @@ Create a timed quiz on Javascript that stores high scores allowing users to comp
 
 ## Contribution
 
+* questions and answers were pulled from the module 4 lessons
+* 
+*
+*
+
+
+
+
+
+
+
+
+
+
 *W3schools.com was also used to assist in the coding process
 
 Made with ❤️ by Lacey Aguigam

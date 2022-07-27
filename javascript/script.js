@@ -1,4 +1,6 @@
 
+var score = 0
+
 var questions = [
     {
         prompt: "What does event.preventDefault() do?\n(a) It stops the browser from reloading the page upon a form submission.\n(b) It stops the browser from allowing the form submission event to occur.",
@@ -19,11 +21,7 @@ var questions = [
         prompt: "In the DOM's event object, what does its target property refer to?\n(a) It refers to the HTML element that was interacted with to dispatch the event\n(b) It refers to the HTML element we want to affect as a result of our dispatched event.",
         answer: "a"
     },
-
-
-
-
-
-
-
 ]
+
+for (var 1=0; i < questions.length, i++);
+    var response = window.prompt(questions[i].prompt);
