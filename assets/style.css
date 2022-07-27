@@ -1,0 +1,17 @@
+
+
+.high-score {
+    text-align: Left;
+    float: left;
+}
+
+
+.time {
+   text-align: right;
+    float: right;
+}
+
+
+.questions {
+    text-align: center;
+}
