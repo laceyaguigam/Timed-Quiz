@@ -3,15 +3,27 @@
 .high-score {
     text-align: Left;
     float: left;
+    display: flex;
 }
 
 
 .time {
    text-align: right;
     float: right;
+    display: flex;
 }
 
 
 .questions {
     text-align: center;
+}
+
+.btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.initials {
+    text-decoration: underline;
 }
