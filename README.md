@@ -1,7 +1,8 @@
 # Timed Quiz
 
 ## Purpose
-Create a timed quiz on Javascript that stores high scores allowing users to compare their progress to peers. 
+
+Quizzes are a good way to learn and reinforce knowledge on various subjects. They have been used to test ones knowdlege and gage how well a person knows a specific subject.  Create a timed quiz on Javascript fundamentals that stores high scores allowing users to compare their progress to peers. 
 
 The timed quiz must meet the following criteria:
 
