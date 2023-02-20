@@ -31,8 +31,8 @@ The user will then be prompted to add their name to the high score list if the s
 
  https://laceyaguigam.github.io/Timed-Quiz/
 
-
 <img width="1728" alt="Screen Shot 2022-08-04 at 1 04 54 PM" src="https://user-images.githubusercontent.com/105749016/182942660-2ff8e3db-7448-4b44-a8cd-868473662635.png">
+
 
 ## Contribution
 
