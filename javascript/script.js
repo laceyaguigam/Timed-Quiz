@@ -1,5 +1,5 @@
 var timerEl = document.getElementById('countdown');
-var highScoreEl = document.getElementById('high-scores');
+var highScoreEl = document.getElementById('initials');
 var startQuizEl = document.getElementById('start');
 var questionDiv = document.getElementById('questionArea');
 
@@ -88,7 +88,7 @@ function checkAnswer(event) {
     else {
         timerEl.textContent = ' ';  //work on taking time away
         console.log("Wrong!")
-        timeLeft = timeLeft -10
+        timeLeft = timeLeft -10  //subtracts time for wrong answer
     }
 
     currentQuestion++;
@@ -115,12 +115,7 @@ function countdown () {
 
         else  {
             timerEl.textContent = '';
-            cleatInterval(timeInterval);
-
-
-
-
-
+            cleartInterval(timeInterval);
             endGame();  //ends the game at zero to input initials, need to add endGame function
         }
     }, 1000);
@@ -139,6 +134,9 @@ function endGame () {
 
 localStorage.setItem(" ", JSON.stringify());
 
+//work on this, it broke the code, doesnt matter if its at the top of the code or the bottom 
+
+//localStorage.getItem("initials", JSON.stringify(initials));
 
 // start button
 
