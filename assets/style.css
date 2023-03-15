@@ -17,6 +17,8 @@
 
 .questions {
     text-align: center;
+    font-weight: bolder;
+    font-size: large;
 }
 
 .btn {
