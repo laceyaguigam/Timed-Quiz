@@ -27,6 +27,20 @@
     justify-content: center;
 }
 
+.begin {
+    background-color: darkslateblue ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+
 .initials {
     text-decoration: underline;
 }
