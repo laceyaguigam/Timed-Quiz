@@ -1,5 +1,5 @@
 
-
+/* Initials */
 .high-score {
     text-align: Left;
     float: left;
@@ -7,26 +7,38 @@
     color: blueviolet;
 }
 
+.initials {
+    text-decoration: underline;
+}
 
+/* Timer */
 .time {
    text-align: right;
     float: right;
     display: flex;
 }
 
-
+/* Middle of the page section */
+.btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.coding-quiz {
+    text-align: center;
+    display: flex;
+    
+}
 .questions {
     text-align: center;
     font-weight: bolder;
     font-size: large;
 }
 
-.btn {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 
+
+/*start button*/
 .begin {
     background-color: darkslateblue ;
     color: white;
@@ -40,7 +52,6 @@
     border-radius: 16px;
 }
 
-
-.initials {
-    text-decoration: underline;
+.begin:hover {
+    background-color: blueviolet;
 }
