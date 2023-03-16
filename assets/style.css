@@ -9,7 +9,11 @@
 
 .initials {
     text-decoration: underline;
+    display:none;
 }
+ li {
+    display: none;
+ }
 
 /* Timer */
 .time {
@@ -58,8 +62,7 @@ p {
     cursor: pointer;
     border-radius: 16px;
     margin-left: 850px;
-    
-    
+    display:flex; 
 }
 
 .begin:hover {
