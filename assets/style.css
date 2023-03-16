@@ -23,19 +23,25 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    border:dotted blue;
    
 }
 .coding-quiz {
     text-align: center;
     display: flex;
+    justify-content: center;
     
 }
 .questions {
     text-align: center;
     font-weight: bolder;
     font-size: large;
+    justify-content: center;
 }
 
+p {
+    text-align: left;
+}
 
 
 /*start button*/
